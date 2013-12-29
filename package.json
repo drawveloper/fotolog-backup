@@ -1,0 +1,16 @@
+{
+  "name": "fotolog-backup",
+  "version": "1.0.0",
+  "description": "A utility to download all photos from fotolog.com service for a given user",
+  "main": "index.js",
+  "dependencies": {
+    "request": "~2.30.0",
+    "cheerio": "~0.12.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guilherme Rodrigues <gadr90@gmail.com>",
+  "license": "BSD"
+}
