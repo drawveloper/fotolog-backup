@@ -7,7 +7,7 @@ user = process.argv[2]
 throw new Error("Usage: coffee fotolog-build-index.coffee <username>") unless user
 
 buildIndexFromPage = (page) ->
-	request "http://www.fotolog.com.br/#{user}/mosaic/#{page}", (err, resp, html) ->
+	request "http://www.fotolog.com/#{user}/mosaic/#{page}", (err, resp, html) ->
 		return console.error(err)  if err
 		console.log "finished page #{page}... adding images"
 
