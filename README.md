@@ -6,7 +6,7 @@ It has now.
 
 ### Usage
 
-    git clone https://github.com/gadr/fotolog-backup.git
+    git clone https://github.com/firstdoit/fotolog-backup.git
     cd fotolog-backup
     npm i
     coffee fotolog-build-index.coffee <username>
